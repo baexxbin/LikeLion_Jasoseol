@@ -7,16 +7,18 @@
     * 모델에 대응하는 html폼을 만들어줌
     * 데이터생성, 업데이트 간편
 
-*실습*
+*실습*        
     * main-forms.py 생성
 
-    * 장고에서 forms 가져오기           
+    * 장고에서 forms 가져오기      
+    
     ```
     from django import forms
     from .models import Jasoseol
     ```
-
-    * 모델폼 class로 만들기
+         
+    * 모델폼 class로 만들기       
+    
     ```
     class JssForm(forms.ModelForm):
 
